@@ -107,7 +107,6 @@ if ($assoc["receiver"]!=0)
 if (!$new_user){
 if (mysqli_errno($GLOBALS["___mysqli_ston"]) == 1062)
     stderr($lang['takesignup_user_error'], $lang['takesignup_user_exists']);
-    stderr($lang['takesignup_user_error'], $lang['takesignup_fatal_error']);
 }
     $sender = $assoc["sender"];
     $added = sqlesc(time());
