@@ -11,8 +11,8 @@ INSTALL
 -And fill out all install fieds in
 -RootDir/include/config.php
 -RootDir/announce.php
--Add the pic.rar too root folder
--Add the templates.rar too root folder
+-Add the pic too root folder
+-Add the templates too root folder
 
 NOTE: 
 -Set Up Instructions - Please take note : (make sure those folders are accessible by chmod 0777).
